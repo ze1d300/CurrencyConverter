@@ -1,0 +1,100 @@
+.main-box {
+  border: 30px;
+  background-color: white;
+  height: 529px;
+  width: 417px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+}
+body {
+  background-color: black;
+}
+#header {
+  font-weight: 400;
+  line-height: 45px;
+  width: 318px;
+  height: 36px;
+}
+.input-box {
+  height: 53px;
+
+  border-color: grey;
+  width: 100%;
+  border: 1px solid;
+}
+.fromto-from {
+  width: 135px;
+  height: 27px;
+  border-color: black;
+}
+button {
+  width: 354px;
+  height: 64px;
+  background-color: crimson;
+  font-size: large;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.from-to {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+img {
+  width: 26px;
+  height: 20px;
+}
+.result-box {
+  margin-top: 66px;
+}
+#convert {
+  margin-bottom: 53px;
+  text-align: center;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.from-to {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+.icon {
+  margin-top: 70px;
+}
+.text {
+  margin-top: 35px;
+}
+#amount-header {
+  font-size: 18px;
+  font-weight: 900;
+}
+.result-box {
+  margin-left: 0;
+  margin-top: 21px;
+  color: white;
+  border-color: cornsilk;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: purple;
+}
+.input-box,
+.fromto-from {
+  border-radius: 7px;
+  border: 1px solid #999;
+  height: 50px;
+}
+@media screen and (max-width: 767px) {
+  .main-box {
+    height: 529px;
+    width: 330px;
+  }
+}

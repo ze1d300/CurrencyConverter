@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CurrencyConverter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="looooogoooo.png" />
+  </head>
+  <body>
+    <div class="main-box">
+      <h1 id="convert" class="poppins-medium">Currency Converter</h1>
+      <form action="#" id="convertForm">
+        <div class="amount-box">
+          <h2 id="amount-header">Enter Amount</h2>
+          <input class="input-box" type="number" id="amount" />
+        </div>
+        <div class="from-to">
+          <div class="from">
+            <h3 class="poppins-medium">From</h3>
+            <select id="fromCurrency" class="fromto-from"></select>
+          </div>
+          <img class="icon" src="iiiicoon.png" />
+          <div class="to">
+            <h3 class="poppins-medium" id="to">To</h3>
+            <select id="toCurrency" class="fromto-from"></select>
+          </div>
+        </div>
+
+        <h2 class="text poppins-medium" id="convertResult">
+          Get exchange rate...
+        </h2>
+        <div class="result">
+          <button class="result-box poppins-medium">
+            GETTING EXCHANGE RATE...
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
